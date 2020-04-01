@@ -31,6 +31,8 @@ public class detalle extends AppCompatActivity {
 //recibimos el arrayList desde la clase sandwiches
         ArrayList<Sandwich> lista = (ArrayList<Sandwich> ) getIntent().getSerializableExtra("sandwich");
         Bundle extras = getIntent().getExtras();
+
+        //recibo el tipo
         String tipo = extras.getString("tipo");
 //boton atras
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
@@ -57,7 +59,7 @@ public class detalle extends AppCompatActivity {
 
 //imprime dependiendo el tipo
 if (tipo.equals("chacarero")) {
-    getSupportActionBar().setTitle("Detalle Sandwich Chacarero");
+    getSupportActionBar().setTitle(getString(R.string.navbarChacarero));
     imagen.setImageResource(imagenesSandwich[0]);
     tvNombre.setText(lista.get(0).getNombre());
     tvDescripcion.setText(lista.get(0).getDescripcion());
@@ -65,7 +67,7 @@ if (tipo.equals("chacarero")) {
 }
 
 if (tipo.equals("churrasco")) {
-    getSupportActionBar().setTitle("Detalle Sandwich Churrasco");
+    getSupportActionBar().setTitle(getString(R.string.navbarChurrasco));
     imagen.setImageResource(imagenesSandwich[1]);
     tvNombre.setText(lista.get(1).getNombre());
     tvDescripcion.setText(lista.get(1).getDescripcion());
@@ -73,7 +75,7 @@ if (tipo.equals("churrasco")) {
 }
 
 if (tipo.equals("fricandela")){
-    getSupportActionBar().setTitle("Detalle Sandwich Fricandela");
+    getSupportActionBar().setTitle(getString(R.string.navbarFricandela));
     imagen.setImageResource(imagenesSandwich[2]);
     tvNombre.setText(lista.get(2).getNombre());
     tvDescripcion.setText(lista.get(2).getDescripcion());
@@ -81,7 +83,7 @@ if (tipo.equals("fricandela")){
 }
 
 if (tipo.equals("lomito")){
-    getSupportActionBar().setTitle("Detalle Sandwich Lomito");
+    getSupportActionBar().setTitle(getString(R.string.navbarLomito));
     imagen.setImageResource(imagenesSandwich[3]);
     tvNombre.setText(lista.get(3).getNombre());
     tvDescripcion.setText(lista.get(3).getDescripcion());
@@ -89,7 +91,7 @@ if (tipo.equals("lomito")){
 }
 
 if (tipo.equals("mechada")){
-    getSupportActionBar().setTitle("Detalle Sandwich Mechada");
+    getSupportActionBar().setTitle(getString(R.string.navbarMechada));
     imagen.setImageResource(imagenesSandwich[4]);
     tvNombre.setText(lista.get(4).getNombre());
     tvDescripcion.setText(lista.get(4).getDescripcion());

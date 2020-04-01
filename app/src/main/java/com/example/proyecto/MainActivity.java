@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView imagenDetalle = (ImageView) findViewById(R.id.imagenDetalle);
-        getSupportActionBar().setTitle("FAST FOOD");
+        getSupportActionBar().setTitle(getString(R.string.fastfood));
 
 
     }

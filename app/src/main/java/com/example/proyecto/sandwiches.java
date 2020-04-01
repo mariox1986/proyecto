@@ -30,15 +30,26 @@ public class sandwiches extends AppCompatActivity {
 
 
 
-        //Creacion de los objetos Sandwich
-
+        //Creacion de los objetos Sandwich (sin Strings)
+/*
         pan.add(new Sandwich("0", "SANDWICH CHACARERO", "CONTIENE CARNE DE VACUNO, TOMATE, POROTOS VERDES Y AJÍ VERDE.", "PRECIO: $3800"));
         pan.add(new Sandwich("1", "SANDWICH CHURRASCO", "CONTIENE CARNE CORTADA EN LAMINAS, TOMATE Y PALTA.", "PRECIO: $3700"));
         pan.add(new Sandwich("2", "SANDWICH FRICANDELA", "CONTIENE CARNE DE VACUNO ALIÑADA CON CEBOLLA Y HIERBAS.", "PRECIO: 3600"));
         pan.add(new Sandwich("3", "SANDWICH LOMITO", "CONTIENE LOMOS DE CERDO COCINADO A LA OLLA MÁS PALTA, TOMATE Y MAYO", "PRECIO: 3500"));
         pan.add(new Sandwich("4", "SANDWICH MECHADA", "CONTIENE CARNE A LA OLLA, COCINADA POR HORAS MAS PALTA, TOMATE Y MAYO", "PRECIO: 3400"));
 
+*/
 
+
+
+//objetos sandwich (usando Strings)
+        pan.add(new Sandwich(getString(R.string.nameChacarero),getString(R.string.detalleChacarero),getString(R.string.precioChacarero)));
+        pan.add(new Sandwich(getString(R.string.nameChurrasco),getString(R.string.detalleChurrasco),getString(R.string.precioChurrasco)));
+        pan.add(new Sandwich(getString(R.string.nameFricandela),getString(R.string.detalleFricandela),getString(R.string.precioFricandela)));
+        pan.add(new Sandwich(getString(R.string.nameLomito),getString(R.string.detalleLomito),getString(R.string.precioLomito)));
+        pan.add(new Sandwich(getString(R.string.nameMechada),getString(R.string.detalleMechada),getString(R.string.precioMechada)));
+
+        //nombre Navbar
     getSupportActionBar().setTitle("Sandwiches");
 
 

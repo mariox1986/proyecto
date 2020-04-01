@@ -15,7 +15,9 @@ public class sobreNosotros extends AppCompatActivity {
 
         //boton atras
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("FAST FOOD");
+
+        //texto navbar
+        getSupportActionBar().setTitle(getString(R.string.fastfood));
     }
 
 

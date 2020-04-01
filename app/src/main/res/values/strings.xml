@@ -2,6 +2,15 @@
     <string name="app_name">proyecto</string>
     <string name="Sandwich">SANDWICHES</string>
     <string name="Sobre">SOBRE NOSOTROS</string>
+    <string name="fastfood">FAST FOOD</string>
+
+
+    <string name="navbarChacarero">Detalle Sandwich Chacarero</string>
+    <string name="navbarChurrasco">Detalle Sandwich Churrasco</string>
+    <string name="navbarFricandela">Detalle Sandwich Fricandela</string>
+    <string name="navbarLomito">Detalle Sandwich Lomito</string>
+    <string name="navbarMechada">Detalle Sandwich Mechada</string>
+
 
     <string name="butonChurrasco">CHURRASCO</string>
     <string name="butonLomito">LOMITO</string>
@@ -9,4 +18,29 @@
     <string name="butonFricandela">FRICANDELA</string>
     <string name="butonMechada">MECHADA</string>
     <string name="tvSobre">SOMOS UNA EMPRESA DE LA REGIÓN CON MÁS DE 10 AÑOS DE EXPERIENCIA REALIZANDO SANDWICHES! LOS MEJORES DE LA ZONA, SI NO CHORREA NO ES FAST FOOD!!</string>
+
+
+
+    <string name="nameChacarero">SANDWICH CHACARERO</string>
+    <string name="nameChurrasco">SANDWICH CHURRASCO</string>
+    <string name="nameFricandela">SANDWICH FRICANDELA</string>
+    <string name="nameLomito">SANDWICH LOMITO</string>
+    <string name="nameMechada">SANDWICH MECHADA</string>
+
+
+
+    <string name="detalleChacarero">CONTIENE CARNE DE VACUNO, TOMATE, POROTOS VERDES Y AJÍ VERDE.</string>
+    <string name="detalleChurrasco">CONTIENE CARNE CORTADA EN LAMINAS, TOMATE Y PALTA.</string>
+    <string name="detalleFricandela">CONTIENE CARNE DE VACUNO ALIÑADA CON CEBOLLA Y HIERBAS.</string>
+    <string name="detalleLomito">CONTIENE LOMOS DE CERDO COCINADO A LA OLLA MÁS PALTA, TOMATE Y MAYO.</string>
+    <string name="detalleMechada">CONTIENE CARNE A LA OLLA, COCINADA POR HORAS MAS PALTA, TOMATE Y MAYO.</string>
+
+
+    <string name="precioChacarero">PRECIO: $4000</string>
+    <string name="precioChurrasco">PRECIO: $3900</string>
+    <string name="precioFricandela">PRECIO: $3800</string>
+    <string name="precioLomito">PRECIO: $3700</string>
+    <string name="precioMechada">PRECIO: $3600</string>
+
+
 </resources>
