@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">proyecto</string>
+    <string name="Sandwich">SANDWICHES</string>
+    <string name="Sobre">SOBRE NOSOTROS</string>
+
+    <string name="butonChurrasco">CHURRASCO</string>
+    <string name="butonLomito">LOMITO</string>
+    <string name="butonChacarero">CHACARERO</string>
+    <string name="butonFricandela">FRICANDELA</string>
+    <string name="butonMechada">MECHADA</string>
+    <string name="tvSobre">SOMOS UNA EMPRESA DE LA REGIÓN CON MÁS DE 10 AÑOS DE EXPERIENCIA REALIZANDO SANDWICHES! LOS MEJORES DE LA ZONA, SI NO CHORREA NO ES FAST FOOD!!</string>
+</resources>
